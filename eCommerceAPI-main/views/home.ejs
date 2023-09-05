@@ -1,0 +1,18 @@
+<link rel="stylesheet" type="text/css" href="../css/home.css">
+
+<div id="products-container">
+    <h2>Products Data</h2>
+    <ul>
+        <% for (product of products){%>
+            <li>
+                <p>
+                    <a> <strong>Product Name: </strong><%=product.name%></a>
+                    <a ><strong>Product Quantity: </strong><%=product.quantity%></a>
+                </p>
+            </li>
+        <%}%>
+    </ul>
+    <p>
+        <a>Add or remove products using API</a>
+    </p>
+</div>

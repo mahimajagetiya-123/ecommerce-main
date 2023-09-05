@@ -1,0 +1,19 @@
+{
+  "name": "ecommerceapi",
+  "version": "1.0.0",
+  "description": "API to add remove products from ecommerce website",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Khalid Lad",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^7.2.4"
+  }
+}
